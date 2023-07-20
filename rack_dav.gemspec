@@ -17,12 +17,12 @@ Gem::Specification.new do |s|
 
   s.extra_rdoc_files = ["README.md"]
 
-  s.add_dependency("rack", "~> 3.0.0")
-  s.add_dependency("rackup", "~> 0.2.3")
-  s.add_dependency("rexml", "~> 3.2.4")
-  s.add_dependency('nokogiri', "~> 1.5")
-  s.add_dependency('webrick', "~> 1.3")
-  s.add_dependency('puma', "~> 6.0")
-  s.add_development_dependency("rspec", "~> 3.4.0")
-  s.add_development_dependency("rake","~> 13.0")
+  s.add_dependency("rack", ">= 1.4")
+  s.add_dependency("rackup", ">= 0.2.3")
+  s.add_dependency("rexml", ">= 3.2.4")
+  s.add_dependency('nokogiri', ">= 1.5")
+  s.add_dependency('webrick', ">= 1.3")
+  s.add_dependency('puma', ">= 6.0")
+  s.add_development_dependency("rspec", ">= 3.4.0")
+  s.add_development_dependency("rake",">= 13.0")
 end
